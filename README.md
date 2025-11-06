@@ -40,6 +40,8 @@ Each Wi-Fi fingerprint (520 RSS features) is converted into a 2D image-like stru
 - A sliding window is applied across time to generate image samples per grid.
 - Each image is labeled with its **building**, **floor**, and **area** number.
 
+<img width="940" height="313" alt="image" src="https://github.com/user-attachments/assets/88bc6f98-1bbf-4bb0-b02a-6a442ed41438" />
+
 This process reformulates RSS-based localization into a **multi-class image classification** task.
 
 ### 2. Model Architecture
@@ -56,6 +58,8 @@ Optimizers used include **Adam** and **Stochastic Gradient Descent (SGD)** with 
 
 ## Positioning System Design
 The complete indoor localization system includes **three CNN models**:
+
+<img width="884" height="395" alt="image" src="https://github.com/user-attachments/assets/b53d913e-d9cd-479d-8867-77a738977faf" />
 
 1. **Building Prediction Model**  
    Classifies the building number (3 classes).  
