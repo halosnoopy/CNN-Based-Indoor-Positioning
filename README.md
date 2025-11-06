@@ -124,3 +124,7 @@ The complete indoor localization system includes **three CNN models**:
 
 │ └── (Custom functions used by the above scripts)
 
+## Reference
+Torres-Sospedra, J., et al. (2014). *UJIIndoorLoc: A new multi-building and multi-floor database for WLAN fingerprint-based indoor localization problems.* IEEE IPIN.  
+Song, X., Fan, X., Xiang, C., Ye, Q., Liu, L., Wang, Z., ... & Fang, G. (2019). *A novel convolutional neural network based indoor localization framework with WiFi fingerprinting.* IEEE Access, 7, 110698–110709.
+
