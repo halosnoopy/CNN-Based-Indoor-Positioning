@@ -69,14 +69,14 @@ The complete indoor localization system includes **three CNN models**:
 
 ## Experimental Results
 
-| Task | Best Accuracy | Notes |
-|------|----------------|-------|
-| **Building Prediction** | 100% | CNN models achieved full accuracy using Adam optimizer. |
-| **Floor Prediction** | 99.96% | 14% improvement over L-RNN baseline. |
-| **Area (Block) Prediction** | 89.59% | Achieved with 3 convolutional layers (2×2, 3×3, 4×4 kernels) and 3 fully connected layers. |
+| Task | Best Accuracy |
+|------|----------------|
+| **Building Prediction** | 100% |
+| **Floor Prediction** | 99.96% |
+| **Area (Block) Prediction** | 89.59% |
 
 **Average localization error:** 2.49 m  
-**Improvement:** 0.3 m better than previous CNN-based systems.
+
 
 ---
 
