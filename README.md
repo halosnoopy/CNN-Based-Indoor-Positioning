@@ -4,7 +4,7 @@
 This computer vision project models the **indoor positioning problem** as an **image recognition task**. 
 Instead of directly regressing continuous coordinates, the spatial environment is divided into discrete blocks, and localization is formulated as a **classification problem**. 
 Wi-Fi signal fingerprints are transformed into image-like matrices that preserve spatial and signal structure, and a **Convolutional Neural Network (CNN)** is trained to classify each image into its corresponding area, floor, and building.
-
+<img width="921" height="256" alt="image" src="https://github.com/user-attachments/assets/947abf4b-86c3-496a-9594-91f4b7dedbe5" />
 This approach simplifies coordinate regression, improves learning stability, and demonstrates the potential of computer vision methods for indoor positioning using Wi-Fi Received Signal Strength (RSS) fingerprints.
 
 ---
